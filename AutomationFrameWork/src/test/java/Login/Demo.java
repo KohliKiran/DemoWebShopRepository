@@ -1,10 +1,15 @@
 package Login;
 
-public class Demo {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Mohan");
+import genericlibrery.BaseClass;
+
+public class Demo extends BaseClass{
+	@Test
+	public void demo() {
+		driver.navigate().to("https://app.fireflink.com/projectmenu/project");
 	}
+	
 
+	
 }
